@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS", "SSIS.dtproj", "{F717D537-2E98-48D6-ABEE-58F6D3363864}"
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS", "SSIS.dtproj", "{0EC2773F-2F01-4D00-A172-7413ADA7C5C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F717D537-2E98-48D6-ABEE-58F6D3363864}.Development|Default.ActiveCfg = Development
-		{F717D537-2E98-48D6-ABEE-58F6D3363864}.Development|Default.Build.0 = Development
+		{0EC2773F-2F01-4D00-A172-7413ADA7C5C8}.Development|Default.ActiveCfg = Development
+		{0EC2773F-2F01-4D00-A172-7413ADA7C5C8}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {24D0EDE2-3CA0-44AB-820F-0537D8ADC0FB}
+		SolutionGuid = {0D9C0B29-A31D-4560-88B4-F702C1AB275E}
 	EndGlobalSection
 EndGlobal

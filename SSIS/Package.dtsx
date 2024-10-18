@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="10/12/2024 9:20:34 PM"
+  DTS:CreationDate="10/18/2024 11:31:23 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-9NQGLVMU"
   DTS:CreatorName="LAPTOP-9NQGLVMU\Acer"
-  DTS:DTSID="{29667D4C-E08C-46E4-8723-9AC77F3C0FD7}"
+  DTS:DTSID="{6FCF8BA8-DF9E-4AB5-BF85-80C2A5D65CE4}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:VersionBuild="6"
-  DTS:VersionGUID="{B423291D-006A-4F80-AE13-2CA3500E5CEE}">
+  DTS:VersionGUID="{AB2F4137-1CD2-4E2F-A58A-10E9F4CF9951}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DATASET]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{69FC302F-EF07-4544-919A-97BFB712D4DC}"
+      DTS:DTSID="{BE61519C-0BE8-44EA-BAD2-A44E92BD0AF6}"
       DTS:ObjectName="DATASET">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="province"
-              DTS:DTSID="{B593CF9E-B3C0-44AF-8AB8-ABF3FF92B86D}"
+              DTS:DTSID="{B7BAE614-80FA-4FA3-8962-E0EBC18B91CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -47,7 +47,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="max"
-              DTS:DTSID="{308D4F8A-4235-409F-9CA6-6F066D7E3034}"
+              DTS:DTSID="{99ED3598-B837-4F40-BF16-3B366DBE5608}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -55,7 +55,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="min"
-              DTS:DTSID="{8171FC1B-97EB-4411-938D-4AA7A26DAAE2}"
+              DTS:DTSID="{601A3149-5768-4178-BEE3-568B6B2DEBB1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="wind"
-              DTS:DTSID="{899BE7A9-FA94-4AC9-B127-56E732916DFF}"
+              DTS:DTSID="{BACD6AAD-30C2-4C6D-9D7F-047F6749BF87}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -72,7 +72,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="wind_d"
-              DTS:DTSID="{A3DF3B00-7DDA-4FE7-A346-5990D64A9D47}"
+              DTS:DTSID="{A1DD34DB-C024-44F7-A062-595E0A8E2113}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="rain"
-              DTS:DTSID="{01FCD01E-7D83-4841-A906-AE878C165F2C}"
+              DTS:DTSID="{C72A74CA-1F38-4799-BEE0-9C52E03683BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -88,7 +88,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="humidi"
-              DTS:DTSID="{C7FFE05C-EA6C-4EBB-97D4-5AD3E509AC39}"
+              DTS:DTSID="{0E9E8A72-F4F3-45CE-9146-A3BF3A5AA470}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +96,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="cloud"
-              DTS:DTSID="{42EAB94A-436B-4BEE-A9D2-920E40E5E6AC}"
+              DTS:DTSID="{6DE4E54D-A71D-489D-B184-29FD978B54D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="pressure"
-              DTS:DTSID="{EFF3A6D7-1526-4FDF-B11C-996A31E3219E}"
+              DTS:DTSID="{5118EEF6-3DEA-4159-95B6-8140CBDE81D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="date"
-              DTS:DTSID="{2E24CC94-AC93-4B8D-89E8-6561CE007A5F}"
+              DTS:DTSID="{414A717A-DC83-4F6A-A9DD-C12D309E776F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -121,13 +121,13 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{ED1AB504-8ADB-4FCB-89C2-ECFDCEBF8F47}"
+      DTS:DTSID="{C09C3425-CCB9-4F9E-B9BB-64029CF8AFDD}"
       DTS:ObjectName="LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-9NQGLVMU\THANHSANG;Initial Catalog=WEATHER_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{ED1AB504-8ADB-4FCB-89C2-ECFDCEBF8F47}LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-9NQGLVMU\THANHSANG;Initial Catalog=WEATHER_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{C09C3425-CCB9-4F9E-B9BB-64029CF8AFDD}LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -137,7 +137,7 @@
       DTS:refId="Package\CREATE DIM TABLES"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:DTSID="{E5459881-9574-466F-8526-7E2F205FEBE3}"
+      DTS:DTSID="{AF9B97FD-FA4F-4440-B40B-54CC9B4E883B}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
       DTS:ObjectName="CREATE DIM TABLES">
@@ -147,7 +147,7 @@
           DTS:refId="Package\CREATE DIM TABLES\DIM_DATE"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{C8A40DCD-CF8A-4994-8B04-57B8E1C7F432}"
+          DTS:DTSID="{1DD1B00D-6218-4D70-B16F-2B59E72FFD86}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="DIM_DATE"
@@ -618,152 +618,6 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="divide DATE into DAY, MONTH, YEAR and SEASON"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]"
-                      description="Input to the Derived Column Transformation"
-                      name="Derived Column Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input].Columns[date]"
-                          cachedDataType="date"
-                          cachedName="date"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output]"
-                      description="Default Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      name="Derived Column Output"
-                      synchronousInputId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]"
-                          name="DAY"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">[DAY](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">DAY(date)</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]"
-                          name="MONTH"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">[MONTH](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">MONTH(date)</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]"
-                          name="YEAR"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">[YEAR](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">YEAR(date)</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]"
-                          name="SEASON"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">(DT_I4)([MONTH](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]}) - 1) / 3 + 1</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">(DT_I4)(MONTH(date) - 1) / 3 + 1</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output]"
-                      description="Error Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Derived Column Error Output"
-                      synchronousInputId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\CREATE DIM TABLES\DIM_DATE\Sort"
                   componentClassID="Microsoft.Sort"
                   contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -952,7 +806,7 @@
                           refId="Package\CREATE DIM TABLES\DIM_DATE\Sort.Inputs[Sort Input].Columns[DAY]"
                           cachedDataType="i4"
                           cachedName="DAY"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]">
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -968,7 +822,7 @@
                           refId="Package\CREATE DIM TABLES\DIM_DATE\Sort.Inputs[Sort Input].Columns[MONTH]"
                           cachedDataType="i4"
                           cachedName="MONTH"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]">
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -984,7 +838,7 @@
                           refId="Package\CREATE DIM TABLES\DIM_DATE\Sort.Inputs[Sort Input].Columns[YEAR]"
                           cachedDataType="i4"
                           cachedName="YEAR"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]">
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -1000,7 +854,7 @@
                           refId="Package\CREATE DIM TABLES\DIM_DATE\Sort.Inputs[Sort Input].Columns[SEASON]"
                           cachedDataType="i4"
                           cachedName="SEASON"
-                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]">
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -1165,7 +1019,7 @@
                               containsID="true"
                               dataType="System.Int32"
                               description="Specifies the lineage identifier of the input column that is associated with this output column."
-                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]}</property>
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
@@ -1179,7 +1033,7 @@
                               containsID="true"
                               dataType="System.Int32"
                               description="Specifies the lineage identifier of the input column that is associated with this output column."
-                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]}</property>
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
@@ -1193,7 +1047,7 @@
                               containsID="true"
                               dataType="System.Int32"
                               description="Specifies the lineage identifier of the input column that is associated with this output column."
-                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]}</property>
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
@@ -1207,9 +1061,155 @@
                               containsID="true"
                               dataType="System.Int32"
                               description="Specifies the lineage identifier of the input column that is associated with this output column."
-                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]}</property>
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]}</property>
                           </properties>
                         </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Tach Date thanh DAY, MONTH, YEAR va SEASON"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input].Columns[date]"
+                          cachedDataType="date"
+                          cachedName="date"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]"
+                          name="DAY"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[DAY](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">DAY(date)</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]"
+                          name="MONTH"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[MONTH](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">MONTH(date)</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]"
+                          name="YEAR"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[YEAR](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">YEAR(date)</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]"
+                          name="SEASON"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">(DT_I4)([MONTH](#{Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output].Columns[date]}) - 1) / 3 + 1</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">(DT_I4)(MONTH(date) - 1) / 3 + 1</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
@@ -1221,10 +1221,10 @@
                   refId="Package\CREATE DIM TABLES\DIM_DATE.Paths[Derived Column Output]"
                   endId="Package\CREATE DIM TABLES\DIM_DATE\Sort.Inputs[Sort Input]"
                   name="Derived Column Output"
-                  startId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output]" />
+                  startId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\CREATE DIM TABLES\DIM_DATE.Paths[Flat File Source Output]"
-                  endId="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]"
+                  endId="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]"
                   name="Flat File Source Output"
                   startId="Package\CREATE DIM TABLES\DIM_DATE\DATASET.Outputs[Flat File Source Output]" />
                 <path
@@ -1240,7 +1240,7 @@
           DTS:refId="Package\CREATE DIM TABLES\DIM_LOCATION"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{51AB7DAA-F178-44C8-99E4-5307C98ABE77}"
+          DTS:DTSID="{04F5713F-8645-41C8-9B84-BFA59E8DF46E}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="DIM_LOCATION"
@@ -1263,7 +1263,7 @@
                     <property
                       dataType="System.Boolean"
                       description="Specifies whether zero-length columns are treated as null."
-                      name="RetainNulls">false</property>
+                      name="RetainNulls">true</property>
                     <property
                       dataType="System.String"
                       description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
@@ -1638,7 +1638,7 @@
                           cachedName="province"
                           cachedSortKeyPosition="1"
                           externalMetadataColumnId="Package\CREATE DIM TABLES\DIM_LOCATION\DIM_LOCATION TABLE.Inputs[OLE DB Destination Input].ExternalColumns[NAME]"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[province]" />
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[province]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -1680,11 +1680,11 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name"
+                  refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort"
                   componentClassID="Microsoft.Sort"
                   contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
                   description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
-                  name="Sort Location's Name"
+                  name="Sort"
                   version="1">
                   <properties>
                     <property
@@ -1699,11 +1699,11 @@
                   </properties>
                   <inputs>
                     <input
-                      refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input]"
+                      refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input]"
                       name="Sort Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[province]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[province]"
                           cachedDataType="wstr"
                           cachedLength="255"
                           cachedName="province"
@@ -1720,7 +1720,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[max]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[max]"
                           cachedDataType="i4"
                           cachedName="max"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[max]">
@@ -1736,7 +1736,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[min]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[min]"
                           cachedDataType="i4"
                           cachedName="min"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[min]">
@@ -1752,7 +1752,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[wind]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[wind]"
                           cachedDataType="i4"
                           cachedName="wind"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[wind]">
@@ -1768,7 +1768,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[wind_d]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[wind_d]"
                           cachedDataType="wstr"
                           cachedLength="50"
                           cachedName="wind_d"
@@ -1785,7 +1785,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[rain]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[rain]"
                           cachedDataType="r4"
                           cachedName="rain"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[rain]">
@@ -1801,7 +1801,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[humidi]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[humidi]"
                           cachedDataType="i4"
                           cachedName="humidi"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[humidi]">
@@ -1817,7 +1817,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[cloud]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[cloud]"
                           cachedDataType="i4"
                           cachedName="cloud"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[cloud]">
@@ -1833,7 +1833,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[pressure]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[pressure]"
                           cachedDataType="r4"
                           cachedName="pressure"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[pressure]">
@@ -1849,7 +1849,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input].Columns[date]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input].Columns[date]"
                           cachedDataType="date"
                           cachedName="date"
                           lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output].Columns[date]">
@@ -1870,15 +1870,15 @@
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output]"
+                      refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output]"
                       isSorted="true"
                       name="Sort Output">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[province]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[province]"
                           dataType="wstr"
                           length="255"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[province]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[province]"
                           name="province"
                           sortKeyPosition="1">
                           <properties>
@@ -1890,9 +1890,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[max]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[max]"
                           dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[max]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[max]"
                           name="max">
                           <properties>
                             <property
@@ -1903,9 +1903,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[min]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[min]"
                           dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[min]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[min]"
                           name="min">
                           <properties>
                             <property
@@ -1916,9 +1916,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[wind]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[wind]"
                           dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[wind]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[wind]"
                           name="wind">
                           <properties>
                             <property
@@ -1929,10 +1929,10 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[wind_d]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[wind_d]"
                           dataType="wstr"
                           length="50"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[wind_d]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[wind_d]"
                           name="wind_d">
                           <properties>
                             <property
@@ -1943,9 +1943,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[rain]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[rain]"
                           dataType="r4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[rain]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[rain]"
                           name="rain">
                           <properties>
                             <property
@@ -1956,9 +1956,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[humidi]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[humidi]"
                           dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[humidi]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[humidi]"
                           name="humidi">
                           <properties>
                             <property
@@ -1969,9 +1969,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[cloud]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[cloud]"
                           dataType="i4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[cloud]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[cloud]"
                           name="cloud">
                           <properties>
                             <property
@@ -1982,9 +1982,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[pressure]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[pressure]"
                           dataType="r4"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[pressure]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[pressure]"
                           name="pressure">
                           <properties>
                             <property
@@ -1995,9 +1995,9 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[date]"
+                          refId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[date]"
                           dataType="date"
-                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output].Columns[date]"
+                          lineageId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output].Columns[date]"
                           name="date">
                           <properties>
                             <property
@@ -2016,14 +2016,14 @@
               <paths>
                 <path
                   refId="Package\CREATE DIM TABLES\DIM_LOCATION.Paths[Flat File Source Output]"
-                  endId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Inputs[Sort Input]"
+                  endId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Inputs[Sort Input]"
                   name="Flat File Source Output"
                   startId="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\CREATE DIM TABLES\DIM_LOCATION.Paths[Sort Output]"
                   endId="Package\CREATE DIM TABLES\DIM_LOCATION\DIM_LOCATION TABLE.Inputs[OLE DB Destination Input]"
                   name="Sort Output"
-                  startId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name.Outputs[Sort Output]" />
+                  startId="Package\CREATE DIM TABLES\DIM_LOCATION\Sort.Outputs[Sort Output]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -2032,7 +2032,7 @@
           DTS:refId="Package\CREATE DIM TABLES\DIM_WIND"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{6AD923F0-B901-4155-8BCE-54BEAD73D86B}"
+          DTS:DTSID="{FD94A868-9D0C-4F7A-AEBB-0CF9A9D45A23}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="DIM_WIND"
@@ -2055,7 +2055,7 @@
                     <property
                       dataType="System.Boolean"
                       description="Specifies whether zero-length columns are treated as null."
-                      name="RetainNulls">true</property>
+                      name="RetainNulls">false</property>
                     <property
                       dataType="System.String"
                       description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
@@ -2424,18 +2424,13 @@
                       name="OLE DB Destination Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].Columns[wind]"
-                          cachedDataType="i4"
-                          cachedName="wind"
-                          externalMetadataColumnId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].ExternalColumns[SPEED]"
-                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind]" />
-                        <inputColumn
                           refId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].Columns[wind_d]"
                           cachedDataType="wstr"
                           cachedLength="50"
                           cachedName="wind_d"
+                          cachedSortKeyPosition="1"
                           externalMetadataColumnId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].ExternalColumns[DIRECTION]"
-                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind_d]" />
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[wind_d]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -2443,10 +2438,6 @@
                           refId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].ExternalColumns[WIND_KEY]"
                           dataType="i4"
                           name="WIND_KEY" />
-                        <externalMetadataColumn
-                          refId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].ExternalColumns[SPEED]"
-                          dataType="i4"
-                          name="SPEED" />
                         <externalMetadataColumn
                           refId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input].ExternalColumns[DIRECTION]"
                           dataType="wstr"
@@ -2480,13 +2471,351 @@
                     </output>
                   </outputs>
                 </component>
+                <component
+                  refId="Package\CREATE DIM TABLES\DIM_WIND\Sort"
+                  componentClassID="Microsoft.Sort"
+                  contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+                  name="Sort"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                      name="EliminateDuplicates">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the maximum number of threads to use for sorting."
+                      expressionType="Notify"
+                      name="MaximumThreads">-1</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input]"
+                      name="Sort Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[province]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="province"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[province]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[max]"
+                          cachedDataType="i4"
+                          cachedName="max"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[max]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[min]"
+                          cachedDataType="i4"
+                          cachedName="min"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[min]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[wind]"
+                          cachedDataType="i4"
+                          cachedName="wind"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[wind_d]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="wind_d"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind_d]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">1</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[rain]"
+                          cachedDataType="r4"
+                          cachedName="rain"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[rain]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[humidi]"
+                          cachedDataType="i4"
+                          cachedName="humidi"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[humidi]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[cloud]"
+                          cachedDataType="i4"
+                          cachedName="cloud"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[cloud]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[pressure]"
+                          cachedDataType="r4"
+                          cachedName="pressure"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[pressure]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input].Columns[date]"
+                          cachedDataType="date"
+                          cachedName="date"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[date]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output]"
+                      isSorted="true"
+                      name="Sort Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[province]"
+                          dataType="wstr"
+                          length="255"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[province]"
+                          name="province">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[province]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[max]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[max]"
+                          name="max">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[max]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[min]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[min]"
+                          name="min">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[min]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[wind]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[wind]"
+                          name="wind">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[wind_d]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[wind_d]"
+                          name="wind_d"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[wind_d]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[rain]"
+                          dataType="r4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[rain]"
+                          name="rain">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[rain]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[humidi]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[humidi]"
+                          name="humidi">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[humidi]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[cloud]"
+                          dataType="i4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[cloud]"
+                          name="cloud">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[cloud]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[pressure]"
+                          dataType="r4"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[pressure]"
+                          name="pressure">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[pressure]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[date]"
+                          dataType="date"
+                          lineageId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output].Columns[date]"
+                          name="date">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output].Columns[date]}</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
               </components>
               <paths>
                 <path
                   refId="Package\CREATE DIM TABLES\DIM_WIND.Paths[Flat File Source Output]"
-                  endId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input]"
+                  endId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Inputs[Sort Input]"
                   name="Flat File Source Output"
                   startId="Package\CREATE DIM TABLES\DIM_WIND\DATASET.Outputs[Flat File Source Output]" />
+                <path
+                  refId="Package\CREATE DIM TABLES\DIM_WIND.Paths[Sort Output]"
+                  endId="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE.Inputs[OLE DB Destination Input]"
+                  name="Sort Output"
+                  startId="Package\CREATE DIM TABLES\DIM_WIND\Sort.Outputs[Sort Output]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -2497,7 +2826,7 @@
       DTS:refId="Package\FACT"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{823A9783-7D40-43C6-8C07-396AD58AD90A}"
+      DTS:DTSID="{34F9047F-ECE7-4112-A183-BF5A7001FBB5}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="FACT"
@@ -2817,11 +3146,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\FACT\DATE Lookup"
+              refId="Package\FACT\Date Lookup"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="DATE Lookup"
+              name="Date Lookup"
               usesDispositions="true"
               version="6">
               <properties>
@@ -2873,7 +3202,7 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]};#{Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]};#{Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]};#{Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]};</property>
+                  name="ParameterMap">#{Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]};#{Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]};#{Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]};#{Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2885,7 +3214,7 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
               </properties>
               <connections>
                 <connection
-                  refId="Package\FACT\DATE Lookup.Connections[OleDbConnection]"
+                  refId="Package\FACT\Date Lookup.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   description="Connection manager used to access lookup data."
@@ -2893,14 +3222,14 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
               </connections>
               <inputs>
                 <input
-                  refId="Package\FACT\DATE Lookup.Inputs[Lookup Input]"
+                  refId="Package\FACT\Date Lookup.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\FACT\DATE Lookup.Inputs[Lookup Input].Columns[DAY]"
+                      refId="Package\FACT\Date Lookup.Inputs[Lookup Input].Columns[DAY]"
                       cachedDataType="i4"
                       cachedName="DAY"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]">
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -2913,10 +3242,10 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\FACT\DATE Lookup.Inputs[Lookup Input].Columns[MONTH]"
+                      refId="Package\FACT\Date Lookup.Inputs[Lookup Input].Columns[MONTH]"
                       cachedDataType="i4"
                       cachedName="MONTH"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]">
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -2929,10 +3258,10 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\FACT\DATE Lookup.Inputs[Lookup Input].Columns[YEAR]"
+                      refId="Package\FACT\Date Lookup.Inputs[Lookup Input].Columns[YEAR]"
                       cachedDataType="i4"
                       cachedName="YEAR"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]">
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -2945,10 +3274,10 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\FACT\DATE Lookup.Inputs[Lookup Input].Columns[SEASON]"
+                      refId="Package\FACT\Date Lookup.Inputs[Lookup Input].Columns[SEASON]"
                       cachedDataType="i4"
                       cachedName="SEASON"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]">
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -2966,18 +3295,18 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
               </inputs>
               <outputs>
                 <output
-                  refId="Package\FACT\DATE Lookup.Outputs[Lookup Match Output]"
+                  refId="Package\FACT\Date Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\FACT\DATE Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Date Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\DATE Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]"
+                      refId="Package\FACT\Date Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]"
                       dataType="i4"
                       errorOrTruncationOperation="Copy Column"
-                      lineageId="Package\FACT\DATE Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]"
+                      lineageId="Package\FACT\Date Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]"
                       name="DATE_KEY"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2991,176 +3320,30 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\DATE Lookup.Outputs[Lookup No Match Output]"
+                  refId="Package\FACT\Date Lookup.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\FACT\DATE Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Date Lookup.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\DATE Lookup.Outputs[Lookup Error Output]"
+                  refId="Package\FACT\Date Lookup.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\FACT\DATE Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Date Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\DATE Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\FACT\Date Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\FACT\DATE Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\FACT\Date Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\FACT\DATE Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\FACT\Date Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\FACT\DATE Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON"
-              componentClassID="Microsoft.DerivedColumn"
-              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-              name="divide DATE into DAY, MONTH, YEAR and SEASON"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]"
-                  description="Input to the Derived Column Transformation"
-                  name="Derived Column Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input].Columns[date]"
-                      cachedDataType="date"
-                      cachedName="date"
-                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output]"
-                  description="Default Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  name="Derived Column Output"
-                  synchronousInputId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[DAY]"
-                      name="DAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[DAY](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">DAY(date)</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[MONTH]"
-                      name="MONTH"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[MONTH](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">MONTH(date)</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[YEAR]"
-                      name="YEAR"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[YEAR](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">YEAR(date)</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output].Columns[SEASON]"
-                      name="SEASON"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">(DT_I4)([MONTH](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]}) - 1) / 3 + 1</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(DT_I4)(MONTH(date) - 1) / 3 + 1</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output]"
-                  description="Error Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Derived Column Error Output"
-                  synchronousInputId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\FACT\Date Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3184,7 +3367,7 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[FACT]</property>
+                  name="OpenRowset">[dbo].[FACT TABLE]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3253,6 +3436,12 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[min]"
                       lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[min]" />
                     <inputColumn
+                      refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[wind]"
+                      cachedDataType="i4"
+                      cachedName="wind"
+                      externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[wind]"
+                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[wind]" />
+                    <inputColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[rain]"
                       cachedDataType="r4"
                       cachedName="rain"
@@ -3277,23 +3466,29 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[pressure]"
                       lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[pressure]" />
                     <inputColumn
+                      refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[date]"
+                      cachedDataType="date"
+                      cachedName="date"
+                      externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[date]"
+                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]" />
+                    <inputColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[DATE_KEY]"
                       cachedDataType="i4"
                       cachedName="DATE_KEY"
                       externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[DATE_KEY]"
-                      lineageId="Package\FACT\DATE Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]" />
+                      lineageId="Package\FACT\Date Lookup.Outputs[Lookup Match Output].Columns[DATE_KEY]" />
                     <inputColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[WIND_KEY]"
                       cachedDataType="i4"
                       cachedName="WIND_KEY"
                       externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[WIND_KEY]"
-                      lineageId="Package\FACT\WIND Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]" />
+                      lineageId="Package\FACT\Wind Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]" />
                     <inputColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].Columns[LOCATION_KEY]"
                       cachedDataType="i4"
                       cachedName="LOCATION_KEY"
                       externalMetadataColumnId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[LOCATION_KEY]"
-                      lineageId="Package\FACT\LOCATION Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]" />
+                      lineageId="Package\FACT\Location Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3310,6 +3505,10 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       dataType="i4"
                       name="min" />
                     <externalMetadataColumn
+                      refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[wind]"
+                      dataType="i4"
+                      name="wind" />
+                    <externalMetadataColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[rain]"
                       dataType="r4"
                       name="rain" />
@@ -3325,6 +3524,10 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[pressure]"
                       dataType="r4"
                       name="pressure" />
+                    <externalMetadataColumn
+                      refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[date]"
+                      dataType="dbTimeStamp"
+                      name="date" />
                     <externalMetadataColumn
                       refId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input].ExternalColumns[DATE_KEY]"
                       dataType="i4"
@@ -3366,11 +3569,11 @@ where [refTable].[DAY] = ? and [refTable].[MONTH] = ? and [refTable].[YEAR] = ? 
               </outputs>
             </component>
             <component
-              refId="Package\FACT\LOCATION Lookup"
+              refId="Package\FACT\Location Lookup"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="LOCATION Lookup"
+              name="Location Lookup"
               usesDispositions="true"
               version="6">
               <properties>
@@ -3434,7 +3637,7 @@ where [refTable].[NAME] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\FACT\LOCATION Lookup.Connections[OleDbConnection]"
+                  refId="Package\FACT\Location Lookup.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   description="Connection manager used to access lookup data."
@@ -3442,11 +3645,11 @@ where [refTable].[NAME] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input]"
+                  refId="Package\FACT\Location Lookup.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input].Columns[province]"
+                      refId="Package\FACT\Location Lookup.Inputs[Lookup Input].Columns[province]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="province"
@@ -3468,18 +3671,18 @@ where [refTable].[NAME] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\FACT\LOCATION Lookup.Outputs[Lookup Match Output]"
+                  refId="Package\FACT\Location Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Location Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\LOCATION Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]"
+                      refId="Package\FACT\Location Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]"
                       dataType="i4"
                       errorOrTruncationOperation="Copy Column"
-                      lineageId="Package\FACT\LOCATION Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]"
+                      lineageId="Package\FACT\Location Lookup.Outputs[Lookup Match Output].Columns[LOCATION_KEY]"
                       name="LOCATION_KEY"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -3493,30 +3696,30 @@ where [refTable].[NAME] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\LOCATION Lookup.Outputs[Lookup No Match Output]"
+                  refId="Package\FACT\Location Lookup.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Location Lookup.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\LOCATION Lookup.Outputs[Lookup Error Output]"
+                  refId="Package\FACT\Location Lookup.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Location Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\LOCATION Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\FACT\Location Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\FACT\LOCATION Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\FACT\Location Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\FACT\LOCATION Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\FACT\Location Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\FACT\LOCATION Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\FACT\Location Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3525,72 +3728,144 @@ where [refTable].[NAME] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\FACT\normalize PRESSURE"
+              refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-              name="normalize PRESSURE"
+              name="Tach Date thanh DAY, MONTH, YEAR va SEASON"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\FACT\normalize PRESSURE.Inputs[Derived Column Input]"
+                  refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\FACT\normalize PRESSURE.Inputs[Derived Column Input].Columns[pressure]"
-                      cachedDataType="r4"
-                      cachedName="pressure"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[pressure]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[pressure]} * 0.987</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">pressure * 0.987</property>
-                      </properties>
-                    </inputColumn>
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input].Columns[date]"
+                      cachedDataType="date"
+                      cachedName="date"
+                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Output]"
+                  refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\FACT\normalize PRESSURE.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[DAY]"
+                      name="DAY"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[DAY](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">DAY(date)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[MONTH]"
+                      name="MONTH"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[MONTH](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">MONTH(date)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[YEAR]"
+                      name="YEAR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[YEAR](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">YEAR(date)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output].Columns[SEASON]"
+                      name="SEASON"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)([MONTH](#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[date]}) - 1) / 3 + 1</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)(MONTH(date) - 1) / 3 + 1</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Error Output]"
+                  refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\FACT\normalize PRESSURE.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3599,11 +3874,11 @@ where [refTable].[NAME] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\FACT\WIND Lookup"
+              refId="Package\FACT\Wind Lookup"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="WIND Lookup"
+              name="Wind Lookup"
               usesDispositions="true"
               version="6">
               <properties>
@@ -3619,7 +3894,7 @@ where [refTable].[NAME] = ?</property>
                   expressionType="Notify"
                   name="SqlCommandParam"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DIM_WIND]) [refTable]
-where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
+where [refTable].[DIRECTION] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the type of connection used to access the reference dataset."
@@ -3650,12 +3925,12 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="WIND_KEY" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SPEED" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DIRECTION" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="WIND_KEY" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DIRECTION" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[wind]};#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[wind_d]};</property>
+                  name="ParameterMap">#{Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[wind_d]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3667,7 +3942,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\FACT\WIND Lookup.Connections[OleDbConnection]"
+                  refId="Package\FACT\Wind Lookup.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1]"
                   description="Connection manager used to access lookup data."
@@ -3675,27 +3950,11 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\FACT\WIND Lookup.Inputs[Lookup Input]"
+                  refId="Package\FACT\Wind Lookup.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\FACT\WIND Lookup.Inputs[Lookup Input].Columns[wind]"
-                      cachedDataType="i4"
-                      cachedName="wind"
-                      lineageId="Package\FACT\DATASET.Outputs[Flat File Source Output].Columns[wind]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">SPEED</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\FACT\WIND Lookup.Inputs[Lookup Input].Columns[wind_d]"
+                      refId="Package\FACT\Wind Lookup.Inputs[Lookup Input].Columns[wind_d]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="wind_d"
@@ -3717,18 +3976,18 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\FACT\WIND Lookup.Outputs[Lookup Match Output]"
+                  refId="Package\FACT\Wind Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\FACT\WIND Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Wind Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\WIND Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]"
+                      refId="Package\FACT\Wind Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]"
                       dataType="i4"
                       errorOrTruncationOperation="Copy Column"
-                      lineageId="Package\FACT\WIND Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]"
+                      lineageId="Package\FACT\Wind Lookup.Outputs[Lookup Match Output].Columns[WIND_KEY]"
                       name="WIND_KEY"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -3742,30 +4001,30 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\WIND Lookup.Outputs[Lookup No Match Output]"
+                  refId="Package\FACT\Wind Lookup.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\FACT\WIND Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Wind Lookup.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\FACT\WIND Lookup.Outputs[Lookup Error Output]"
+                  refId="Package\FACT\Wind Lookup.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\FACT\WIND Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\FACT\Wind Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\FACT\WIND Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\FACT\Wind Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\FACT\WIND Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\FACT\Wind Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\FACT\WIND Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\FACT\Wind Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\FACT\WIND Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\FACT\Wind Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3777,34 +4036,29 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
           <paths>
             <path
               refId="Package\FACT.Paths[Derived Column Output]"
-              endId="Package\FACT\DATE Lookup.Inputs[Lookup Input]"
+              endId="Package\FACT\Date Lookup.Inputs[Lookup Input]"
               name="Derived Column Output"
-              startId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\FACT.Paths[Derived Column Output1]"
-              endId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\FACT\normalize PRESSURE.Outputs[Derived Column Output]" />
+              startId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Outputs[Derived Column Output]" />
             <path
               refId="Package\FACT.Paths[Flat File Source Output]"
-              endId="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON.Inputs[Derived Column Input]"
+              endId="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON.Inputs[Derived Column Input]"
               name="Flat File Source Output"
               startId="Package\FACT\DATASET.Outputs[Flat File Source Output]" />
             <path
               refId="Package\FACT.Paths[Lookup Match Output]"
-              endId="Package\FACT\WIND Lookup.Inputs[Lookup Input]"
+              endId="Package\FACT\Wind Lookup.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FACT\DATE Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\FACT\Date Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FACT.Paths[Lookup Match Output1]"
-              endId="Package\FACT\LOCATION Lookup.Inputs[Lookup Input]"
+              endId="Package\FACT\Location Lookup.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FACT\WIND Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\FACT\Wind Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FACT.Paths[Lookup Match Output2]"
-              endId="Package\FACT\normalize PRESSURE.Inputs[Derived Column Input]"
+              endId="Package\FACT\FACT TABLE.Inputs[OLE DB Destination Input]"
               name="Lookup Match Output"
-              startId="Package\FACT\LOCATION Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\FACT\Location Lookup.Outputs[Lookup Match Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3813,7 +4067,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
       DTS:refId="Package\RESET DATAWAREHOUSE"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{16E8D739-B598-48B6-8EBA-35E40DF14C36}"
+      DTS:DTSID="{93B9D5A5-1468-4B22-AF7F-86C8A8625825}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="RESET DATAWAREHOUSE"
@@ -3822,8 +4076,8 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{ED1AB504-8ADB-4FCB-89C2-ECFDCEBF8F47}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.DIM_DATE;&#xA;TRUNCATE TABLE dbo.DIM_LOCATION;&#xA;TRUNCATE TABLE dbo.DIM_WIND;&#xA;TRUNCATE TABLE dbo.FACT;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:Connection="{C09C3425-CCB9-4F9E-B9BB-64029CF8AFDD}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.DIM_DATE;&#xA;TRUNCATE TABLE dbo.DIM_LOCATION;&#xA;TRUNCATE TABLE dbo.DIM_WIND;&#xA;TRUNCATE TABLE dbo.[FACT TABLE];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -3831,7 +4085,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{EC116EE0-5226-40DB-B3CE-96C0D4DE488A}"
+      DTS:DTSID="{88DABAB7-E520-4924-AA9C-501907EBDEC9}"
       DTS:From="Package\RESET DATAWAREHOUSE"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -3839,7 +4093,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{010E68B6-C906-4019-8613-E5E55AFD634A}"
+      DTS:DTSID="{D4358D48-8D19-481E-8AAF-F060B8EBEFC6}"
       DTS:From="Package\CREATE DIM TABLES"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
@@ -3860,40 +4114,52 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="200.8,41.6"
           Id="Package\RESET DATAWAREHOUSE"
-          TopLeft="170.714286077692,27.5294117405753" />
+          TopLeft="235.71428621606,28.294117622258" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\CREATE DIM TABLES\DIM_LOCATION"
-          TopLeft="10.228571687061,10.3176469053262" />
+          TopLeft="6.65714306545503,14.3647057449426" />
         <NodeLayout
           Size="132,41.6"
           Id="Package\CREATE DIM TABLES\DIM_WIND"
-          TopLeft="179.51428633314,10.3176469053261" />
+          TopLeft="200.228572048946,17.4235292716732" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\CREATE DIM TABLES\DIM_DATE"
-          TopLeft="90.9428575731663,90.9999997834949" />
+          TopLeft="98.8000004044601,89.3058821498421" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="322.4,155.2"
-          Size="322.4,198.4"
+          PanelSize="337.6,148"
+          Size="337.6,191.2"
           Id="Package\CREATE DIM TABLES"
-          TopLeft="111.428571665774,121.588235187541" />
+          TopLeft="91.4285716231988,120.823529305858" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="271.871428871733,69.1294117405753">
+          TopLeft="336.11428621606,69.894117622258">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.4588234469656"
+              EndConnector="-75.8857145928607,50.9294116836003"
               Start="0,0"
-              End="0,44.9588234469656">
+              End="-75.8857145928607,43.4294116836003">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.9588234469656" />
+                    End="0,21.4647058418002" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.4647058418002"
+                    Point2="0,25.4647058418002"
+                    Point3="-4,25.4647058418002" />
+                  <mssgle:LineSegment
+                    End="-71.8857145928607,25.4647058418002" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-71.8857145928607,25.4647058418002"
+                    Point2="-75.8857145928607,25.4647058418002"
+                    Point3="-75.8857145928607,29.4647058418002" />
+                  <mssgle:LineSegment
+                    End="-75.8857145928607,43.4294116836003" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3905,21 +4171,33 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="103.2,41.6"
           Id="Package\FACT"
-          TopLeft="521.428572538556,201.164705722153" />
+          TopLeft="491.428572474694,226.717646882536" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="433.828571665774,221.376470454847">
+          TopLeft="429.028571623199,216.423529305858">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="87.6000008727825,0"
+              EndConnector="62.4000008514951,31.0941175766778"
               Start="0,0"
-              End="80.1000008727825,0">
+              End="54.9000008514951,31.0941175766778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="80.1000008727825,0" />
+                    End="27.2000004257476,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="27.2000004257476,0"
+                    Point2="31.2000004257476,0"
+                    Point3="31.2000004257476,4" />
+                  <mssgle:LineSegment
+                    End="31.2000004257476,27.0941175766778" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31.2000004257476,27.0941175766778"
+                    Point2="31.2000004257476,31.0941175766778"
+                    Point3="35.2000004257476,31.0941175766778" />
+                  <mssgle:LineSegment
+                    End="54.9000008514951,31.0941175766778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3939,37 +4217,37 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\CREATE DIM TABLES\DIM_LOCATION\DATASET"
-          TopLeft="53.5714286854681,25.2352940955274" />
+          TopLeft="29.2857143480559,20.6470588054315" />
         <NodeLayout
-          Size="177.6,41.6"
-          Id="Package\CREATE DIM TABLES\DIM_LOCATION\Sort Location's Name"
-          TopLeft="52.8571429696618,113.176470489032" />
+          Size="97.6,41.6"
+          Id="Package\CREATE DIM TABLES\DIM_LOCATION\Sort"
+          TopLeft="57.1428572644993,115.47058813408" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_LOCATION.Paths[Flat File Source Output]"
-          TopLeft="115.171428685468,66.8352940955274">
+          TopLeft="90.8857143480559,62.2470588054315">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26.4857142841937,46.3411763935044"
+              EndConnector="15.0571429164434,53.2235293286482"
               Start="0,0"
-              End="26.4857142841937,38.8411763935044">
+              End="15.0571429164434,45.7235293286482">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.1705881967522" />
+                    End="0,22.6117646643241" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.1705881967522"
-                    Point2="0,23.1705881967522"
-                    Point3="4,23.1705881967522" />
+                    Point1="0,22.6117646643241"
+                    Point2="0,26.6117646643241"
+                    Point3="4,26.6117646643241" />
                   <mssgle:LineSegment
-                    End="22.4857142841937,23.1705881967522" />
+                    End="11.0571429164434,26.6117646643241" />
                   <mssgle:CubicBezierSegment
-                    Point1="22.4857142841937,23.1705881967522"
-                    Point2="26.4857142841937,23.1705881967522"
-                    Point3="26.4857142841937,27.1705881967522" />
+                    Point1="11.0571429164434,26.6117646643241"
+                    Point2="15.0571429164434,26.6117646643241"
+                    Point3="15.0571429164434,30.6117646643241" />
                   <mssgle:LineSegment
-                    End="26.4857142841937,38.8411763935044" />
+                    End="15.0571429164434,45.7235293286482" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3981,33 +4259,33 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="188,41.6"
           Id="Package\CREATE DIM TABLES\DIM_LOCATION\DIM_LOCATION TABLE"
-          TopLeft="136.428571718992,205.705882172632" />
+          TopLeft="124.285714550286,198.058823355806" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_LOCATION.Paths[Sort Output]"
-          TopLeft="141.657142969662,154.776470489032">
+          TopLeft="105.942857264499,157.07058813408">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="88.7714287493303,50.9294116836003"
+              EndConnector="112.342857285787,40.9882352217259"
               Start="0,0"
-              End="88.7714287493303,43.4294116836003">
+              End="112.342857285787,33.4882352217259">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.4647058418001" />
+                    End="0,16.4941176108629" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.4647058418001"
-                    Point2="0,25.4647058418001"
-                    Point3="4,25.4647058418001" />
+                    Point1="0,16.4941176108629"
+                    Point2="0,20.4941176108629"
+                    Point3="4,20.4941176108629" />
                   <mssgle:LineSegment
-                    End="84.7714287493303,25.4647058418001" />
+                    End="108.342857285787,20.4941176108629" />
                   <mssgle:CubicBezierSegment
-                    Point1="84.7714287493303,25.4647058418001"
-                    Point2="88.7714287493303,25.4647058418001"
-                    Point3="88.7714287493303,29.4647058418001" />
+                    Point1="108.342857285787,20.4941176108629"
+                    Point2="112.342857285787,20.4941176108629"
+                    Point3="112.342857285787,24.4941176108629" />
                   <mssgle:LineSegment
-                    End="88.7714287493303,43.4294116836003" />
+                    End="112.342857285787,33.4882352217259" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4036,41 +4314,79 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
     design-time-name="Package\CREATE DIM TABLES\DIM_WIND">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\CREATE DIM TABLES\DIM_WIND\DATASET"
-          TopLeft="44.9999993294477,37.9999994337559" />
+          TopLeft="52.9999992102384,26.9999995976687" />
         <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE"
-          TopLeft="53.9999991953373,141.999997884035" />
+          Size="97.6,41.6"
+          Id="Package\CREATE DIM TABLES\DIM_WIND\Sort"
+          TopLeft="104.999998435378,145.99999782443" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_WIND.Paths[Flat File Source Output]"
-          TopLeft="106.599999329448,79.5999994337559">
+          TopLeft="114.599999210238,68.5999995976687">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="29.7999998658896,62.3999984502792"
+              EndConnector="39.1999992251396,77.3999982267618"
               Start="0,0"
-              End="29.7999998658896,54.8999984502792">
+              End="39.1999992251396,69.8999982267618">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.1999992251396" />
+                    End="0,34.6999991133809" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,27.1999992251396"
-                    Point2="0,31.1999992251396"
-                    Point3="4,31.1999992251396" />
+                    Point1="0,34.6999991133809"
+                    Point2="0,38.6999991133809"
+                    Point3="4,38.6999991133809" />
                   <mssgle:LineSegment
-                    End="25.7999998658896,31.1999992251396" />
+                    End="35.1999992251396,38.6999991133809" />
                   <mssgle:CubicBezierSegment
-                    Point1="25.7999998658896,31.1999992251396"
-                    Point2="29.7999998658896,31.1999992251396"
-                    Point3="29.7999998658896,35.1999992251396" />
+                    Point1="35.1999992251396,38.6999991133809"
+                    Point2="39.1999992251396,38.6999991133809"
+                    Point3="39.1999992251396,42.6999991133809" />
                   <mssgle:LineSegment
-                    End="29.7999998658896,54.8999984502792" />
+                    End="39.1999992251396,69.8999982267618" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\CREATE DIM TABLES\DIM_WIND\DIM_WIND TABLE"
+          TopLeft="153.999997705221,248.999996289611" />
+        <EdgeLayout
+          Id="Package\CREATE DIM TABLES\DIM_WIND.Paths[Sort Output]"
+          TopLeft="153.799998435378,187.59999782443">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="82.5999992698432,61.3999984651804"
+              Start="0,0"
+              End="82.5999992698432,53.8999984651804">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6999992325902"
+                    Point2="0,30.6999992325902"
+                    Point3="4,30.6999992325902" />
+                  <mssgle:LineSegment
+                    End="78.5999992698432,30.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="78.5999992698432,30.6999992325902"
+                    Point2="82.5999992698432,30.6999992325902"
+                    Point3="82.5999992698432,34.6999992325902" />
+                  <mssgle:LineSegment
+                    End="82.5999992698432,53.8999984651804" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4103,37 +4419,37 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\CREATE DIM TABLES\DIM_DATE\DATASET"
-          TopLeft="59.9999991059303,31.9999995231628" />
+          TopLeft="44.9999993294476,20.9999996870756" />
         <NodeLayout
-          Size="316.8,41.6"
-          Id="Package\CREATE DIM TABLES\DIM_DATE\divide DATE into DAY, MONTH, YEAR and SEASON"
-          TopLeft="61.999999076128,144.999997839332" />
+          Size="311.2,41.6"
+          Id="Package\CREATE DIM TABLES\DIM_DATE\Tach Date thanh DAY, MONTH, YEAR va SEASON"
+          TopLeft="71.9999989271164,136.999997958541" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_DATE.Paths[Flat File Source Output]"
-          TopLeft="121.59999910593,73.5999995231628">
+          TopLeft="106.599999329448,62.5999996870756">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="98.7999999701977,71.3999983161688"
+              EndConnector="120.999999597669,74.3999982714653"
               Start="0,0"
-              End="98.7999999701977,63.8999983161688">
+              End="120.999999597669,66.8999982714653">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.6999991580844" />
+                    End="0,33.1999991357327" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.6999991580844"
-                    Point2="0,35.6999991580844"
-                    Point3="4,35.6999991580844" />
+                    Point1="0,33.1999991357327"
+                    Point2="0,37.1999991357327"
+                    Point3="4,37.1999991357327" />
                   <mssgle:LineSegment
-                    End="94.7999999701977,35.6999991580844" />
+                    End="116.999999597669,37.1999991357327" />
                   <mssgle:CubicBezierSegment
-                    Point1="94.7999999701977,35.6999991580844"
-                    Point2="98.7999999701977,35.6999991580844"
-                    Point3="98.7999999701977,39.6999991580844" />
+                    Point1="116.999999597669,37.1999991357327"
+                    Point2="120.999999597669,37.1999991357327"
+                    Point3="120.999999597669,41.1999991357327" />
                   <mssgle:LineSegment
-                    End="98.7999999701977,63.8999983161688" />
+                    End="120.999999597669,66.8999982714653" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4145,21 +4461,33 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\CREATE DIM TABLES\DIM_DATE\Sort"
-          TopLeft="443.999993383884,146.999997809529" />
+          TopLeft="251.999996244907,235.999996483326" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_DATE.Paths[Derived Column Output]"
-          TopLeft="378.799999076128,166.79999782443">
+          TopLeft="227.599998927116,178.599997958541">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="65.1999943077565,0"
+              EndConnector="73.199997317791,57.3999985247851"
               Start="0,0"
-              End="57.6999943077565,0">
+              End="73.199997317791,49.8999985247851">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="57.6999943077565,0" />
+                    End="0,24.6999992623925" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.6999992623925"
+                    Point2="0,28.6999992623925"
+                    Point3="4,28.6999992623925" />
+                  <mssgle:LineSegment
+                    End="69.199997317791,28.6999992623925" />
+                  <mssgle:CubicBezierSegment
+                    Point1="69.199997317791,28.6999992623925"
+                    Point2="73.199997317791,28.6999992623925"
+                    Point3="73.199997317791,32.6999992623925" />
+                  <mssgle:LineSegment
+                    End="73.199997317791,49.8999985247851" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4171,33 +4499,33 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="163.2,41.6"
           Id="Package\CREATE DIM TABLES\DIM_DATE\DIM_DATE TABLE"
-          TopLeft="481.99999281764,266.99999602139" />
+          TopLeft="403.999993979931,316.999995276332" />
         <EdgeLayout
           Id="Package\CREATE DIM TABLES\DIM_DATE.Paths[Sort Output]"
-          TopLeft="492.799993383884,188.599997809529">
+          TopLeft="300.799996244907,277.599996483326">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="70.7999994337558,78.3999982118607"
+              EndConnector="184.799997735024,39.3999987930059"
               Start="0,0"
-              End="70.7999994337558,70.8999982118607">
+              End="184.799997735024,31.8999987930059">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.1999991059304" />
+                    End="0,15.699999396503" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,35.1999991059304"
-                    Point2="0,39.1999991059304"
-                    Point3="4,39.1999991059304" />
+                    Point1="0,15.699999396503"
+                    Point2="0,19.699999396503"
+                    Point3="4,19.699999396503" />
                   <mssgle:LineSegment
-                    End="66.7999994337558,39.1999991059304" />
+                    End="180.799997735024,19.699999396503" />
                   <mssgle:CubicBezierSegment
-                    Point1="66.7999994337558,39.1999991059304"
-                    Point2="70.7999994337558,39.1999991059304"
-                    Point3="70.7999994337558,43.1999991059304" />
+                    Point1="180.799997735024,19.699999396503"
+                    Point2="184.799997735024,19.699999396503"
+                    Point3="184.799997735024,23.699999396503" />
                   <mssgle:LineSegment
-                    End="70.7999994337558,70.8999982118607" />
+                    End="184.799997735024,31.8999987930059" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4230,37 +4558,37 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\FACT\DATASET"
-          TopLeft="61.9999990761279,36.9999994486571" />
+          TopLeft="45.9999993145465,33.9999994933605" />
         <NodeLayout
-          Size="316.8,41.6"
-          Id="Package\FACT\divide DATE into DAY, MONTH, YEAR and SEASON"
-          TopLeft="115.999998271465,142.999997869134" />
+          Size="311.2,41.6"
+          Id="Package\FACT\Tach Date thanh DAY, MONTH, YEAR va SEASON"
+          TopLeft="91.9999986290931,142.999997869134" />
         <EdgeLayout
           Id="Package\FACT.Paths[Flat File Source Output]"
-          TopLeft="123.599999076128,78.5999994486571">
+          TopLeft="107.599999314546,75.5999994933605">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="150.799999195337,64.3999984204769"
+              EndConnector="139.999999314547,67.3999983757734"
               Start="0,0"
-              End="150.799999195337,56.8999984204769">
+              End="139.999999314547,59.8999983757734">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.1999992102385" />
+                    End="0,29.6999991878867" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.1999992102385"
-                    Point2="0,32.1999992102385"
-                    Point3="4,32.1999992102385" />
+                    Point1="0,29.6999991878867"
+                    Point2="0,33.6999991878867"
+                    Point3="4,33.6999991878867" />
                   <mssgle:LineSegment
-                    End="146.799999195337,32.1999992102385" />
+                    End="135.999999314547,33.6999991878867" />
                   <mssgle:CubicBezierSegment
-                    Point1="146.799999195337,32.1999992102385"
-                    Point2="150.799999195337,32.1999992102385"
-                    Point3="150.799999195337,36.1999992102385" />
+                    Point1="135.999999314547,33.6999991878867"
+                    Point2="139.999999314547,33.6999991878867"
+                    Point3="139.999999314547,37.6999991878867" />
                   <mssgle:LineSegment
-                    End="150.799999195337,56.8999984204769" />
+                    End="139.999999314547,59.8999983757734" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4270,23 +4598,23 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\FACT\DATE Lookup"
-          TopLeft="502.999992504716,147.999997794628" />
+          Size="137.6,41.6"
+          Id="Package\FACT\Date Lookup"
+          TopLeft="477.999992877245,148.999997779727" />
         <EdgeLayout
           Id="Package\FACT.Paths[Derived Column Output]"
-          TopLeft="432.799998271465,166.299997831881">
+          TopLeft="403.199998629093,166.799997824431">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="70.1999942332506,0"
+              EndConnector="74.7999942481518,0"
               Start="0,0"
-              End="62.6999942332506,0">
+              End="67.2999942481518,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="62.6999942332506,0" />
+                    End="67.2999942481518,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4296,144 +4624,106 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="144,41.6"
-          Id="Package\FACT\WIND Lookup"
-          TopLeft="698.999989584088,147.999997794628" />
+          Size="140,41.6"
+          Id="Package\FACT\Wind Lookup"
+          TopLeft="724.999989196658,147.999997794628" />
         <EdgeLayout
           Id="Package\FACT.Paths[Lookup Match Output]"
-          TopLeft="644.599992504716,168.799997794628">
+          TopLeft="615.599992877245,169.299997787178">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="54.3999970793723,0"
+              EndConnector="109.399996319413,0"
               Start="0,0"
-              End="46.8999970793723,0">
+              End="101.899996319413,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="46.8999970793723,0" />
+                    End="101.899996319413,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-24.7413881790639,5,96.3827734375,11.609375"
+              BoundingBox="2.75861144095652,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="166.4,41.6"
-          Id="Package\FACT\LOCATION Lookup"
-          TopLeft="915.999986350537,146.999997809529" />
+          Size="155.2,41.6"
+          Id="Package\FACT\Location Lookup"
+          TopLeft="961.999985665083,151.999997735024" />
         <EdgeLayout
           Id="Package\FACT.Paths[Lookup Match Output1]"
-          TopLeft="842.999989584088,168.299997802079">
+          TopLeft="864.999989196658,170.799997764826">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="72.9999967664486,0"
+              EndConnector="96.9999964684249,0"
               Start="0,0"
-              End="65.4999967664486,0">
+              End="89.4999964684249,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="65.4999967664486,0" />
+                    End="89.4999964684249,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-15.4413883355257,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="176.8,41.6"
-          Id="Package\FACT\normalize PRESSURE"
-          TopLeft="809.999987930059,248.999996289611" />
-        <EdgeLayout
-          Id="Package\FACT.Paths[Lookup Match Output2]"
-          TopLeft="999.199986350537,188.599997809529">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-100.799998420477,60.3999984800815"
-              Start="0,0"
-              End="-100.799998420477,52.8999984800815">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.1999992400408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.1999992400408"
-                    Point2="0,30.1999992400408"
-                    Point3="-4,30.1999992400408" />
-                  <mssgle:LineSegment
-                    End="-96.7999984204774,30.1999992400408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-96.7999984204774,30.1999992400408"
-                    Point2="-100.799998420477,30.1999992400408"
-                    Point3="-100.799998420477,34.1999992400408" />
-                  <mssgle:LineSegment
-                    End="-100.799998420477,52.8999984800815" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-98.5913859289887,35.1999992400408,96.3827734375,11.609375"
+              BoundingBox="-3.44138848453755,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
           Size="136.8,41.6"
           Id="Package\FACT\FACT TABLE"
-          TopLeft="568.999991521239,280.999995812774" />
+          TopLeft="765.99998858571,248.999996289611" />
         <EdgeLayout
-          Id="Package\FACT.Paths[Derived Column Output1]"
-          TopLeft="809.999987930059,269.799996289611">
+          Id="Package\FACT.Paths[Lookup Match Output2]"
+          TopLeft="1039.59998566508,193.599997735024">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-104.19999640882,31.9999995231629"
+              EndConnector="-205.199997079373,55.3999985545874"
               Start="0,0"
-              End="-96.6999964088201,31.9999995231629">
+              End="-205.199997079373,47.8999985545874">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-48.09999820441,0" />
+                    End="0,23.6999992772937" />
                   <mssgle:CubicBezierSegment
-                    Point1="-48.09999820441,0"
-                    Point2="-52.09999820441,0"
-                    Point3="-52.09999820441,4" />
+                    Point1="0,23.6999992772937"
+                    Point2="0,27.6999992772937"
+                    Point3="-4,27.6999992772937" />
                   <mssgle:LineSegment
-                    End="-52.09999820441,27.9999995231629" />
+                    End="-201.199997079373,27.6999992772937" />
                   <mssgle:CubicBezierSegment
-                    Point1="-52.09999820441,27.9999995231629"
-                    Point2="-52.09999820441,31.9999995231629"
-                    Point3="-56.09999820441,31.9999995231629" />
+                    Point1="-201.199997079373,27.6999992772937"
+                    Point2="-205.199997079373,27.6999992772937"
+                    Point3="-205.199997079373,31.6999992772937" />
                   <mssgle:LineSegment
-                    End="-96.6999964088201,31.9999995231629" />
+                    End="-205.199997079373,47.8999985545874" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-150.791385258436,32.6999992772937,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT\DATE Lookup">
+    design-time-name="Package\FACT\Date Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -4456,7 +4746,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT\WIND Lookup">
+    design-time-name="Package\FACT\Wind Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -4479,7 +4769,7 @@ where [refTable].[SPEED] = ? and [refTable].[DIRECTION] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT\LOCATION Lookup">
+    design-time-name="Package\FACT\Location Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
