@@ -14,19 +14,19 @@
     <Manifest>
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
-          <SSIS:Property SSIS:Name="ID">{0f8146de-08a6-4ef9-a5fc-a9b2644d7ee5}</SSIS:Property>
+          <SSIS:Property SSIS:Name="ID">{eda0df99-bdf7-43d0-b035-d7eeb486c3d1}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">SSIS</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="CreationDate">2024-10-18T23:31:23.1706863+07:00</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreationDate">2024-10-19T16:41:14.9209767+07:00</SSIS:Property>
           <SSIS:Property SSIS:Name="CreatorName">LAPTOP-9NQGLVMU\Acer</SSIS:Property>
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-9NQGLVMU</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfVdDvak8L0WTn3Rox9Ay7wAAAAACAAAAAAAQZgAAAAEAACAAAABCCk55Ub44yQd0lVi9zwA5+wWoS5IQgL7oztoMQ3ndigAAAAAOgAAAAAIAACAAAABNb2pdn0s1boUFLEebQmPPUjBf7qMf0s0h7QGhKe8GQ5AAAABU7odq/OxErxNuhVL8JgtITUsQhHlbeQF9vXwKEJjXNbOaa/yfLFrz5cnXvbTfV8HyRYtzbzbJgeD8ToewXRebQi7N/q3w1NRFUjSzlmnhFugsX/jZMXJtYkmlHnY8DHzsbWqyLqedoBSv9iQE5UVCuh1vjrZ5mfTHfeIvBcHkJpxfEHOphWqQMDAFryaF6s9AAAAAjAkcj8cd9L8va0oG8GU3tBInBeMvTMF4zMbNvwAUQkyWq6RawnWkioTb32O5p2BGKU/+PfDQG10FGEKc1eYKsQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfVdDvak8L0WTn3Rox9Ay7wAAAAACAAAAAAAQZgAAAAEAACAAAACkHGrPD6+QHwpRANHLg/gciEmJQx6UphWAGORwEZhlWAAAAAAOgAAAAAIAACAAAACOC6WlGjD7ueS653BJysGVMCyFX21JQ3ra2zskWl43aJAAAAAO69H1hJCOfZ355avAsktXJ6XcuttoDYBLBMLppkXtG/TeyI4FNp49LZEghKLDeN8+Q8TndTdyahlP1ilpr6o3shFKAQONUeyYg3Zdg+WLn6bVJfL2iMuSqLFewq8QkTfL2LaEw8DuK09WT4AZ7xlOzfPk0Ot2aCOJ/8ia6Ht/+A39JKDh8ul7QJKPkvqLqB1AAAAAq6if5ltDDFff4VZ6fKq3bqpvxnjhmo/VmU9xn7m/enlD/g4FFIWsSTnf6NWsEC2BcUU2P8myaWNPJI1X16E7Ow==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -38,14 +38,14 @@
           <SSIS:PackageInfo>
             <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{6FCF8BA8-DF9E-4AB5-BF85-80C2A5D65CE4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{7BD41AC3-321A-4E4C-B868-6DEB85EA0799}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{AB2F4137-1CD2-4E2F-A58A-10E9F4CF9951}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4B85BCC6-E128-4B89-87AC-FFAD4D359A02}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -273,7 +273,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-9NQGLVMU\THANHSANG;Initial Catalog=WEATHER_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{C09C3425-CCB9-4F9E-B9BB-64029CF8AFDD}LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-9NQGLVMU\THANHSANG;Initial Catalog=WEATHER_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{9E4E3A5A-6CC4-421E-B3D3-AA1177C21679}LAPTOP-9NQGLVMU\THANHSANG.WEATHER_DW1;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -424,7 +424,7 @@
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
             <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2024-10-18T16:56:34.104303Z</Value>
+            <Value xsi:type="xsd:dateTime">2024-10-19T10:00:22.7212586Z</Value>
           </ConfigurationSetting>
         </ParameterConfigurationValues>
       </Options>
