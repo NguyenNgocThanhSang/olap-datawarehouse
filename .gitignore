@@ -1,5 +1,7 @@
 *.mp4
 SSIS/.vs
+DATASET/*.mdf
+DATASET/*.ldf
 #################
 ## Eclipse
 #################
