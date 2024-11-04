@@ -1,0 +1,266 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="047cdc74-d480-4e42-bb06-83a9ff7c36bb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>WEATHER DW</ID>
+  <Name>WEATHER DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source dwd:design-time-name="57ea174c-42f7-43e7-9ac7-2827c4761278">
+    <DataSourceViewID>WEATHER DW</DataSourceViewID>
+  </Source>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b0605b44-0ac0-4b90-a8c4-da7c9299aceb">
+      <ID>DIM DATE</ID>
+      <Name>DIM DATE</Name>
+      <DimensionID>DIM DATE</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6c975cb2-350c-488e-9875-dd4f48ad0b18">
+          <AttributeID>DATE KEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ad9206c-577c-4b50-ad64-f77533a11a71">
+          <AttributeID>DAY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd73ab6d-77b9-430e-a587-56282ae7854f">
+          <AttributeID>MONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ccdc3ea-17d6-461c-8fd8-470a3e0f88cf">
+          <AttributeID>YEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6085d965-550f-4e1b-bb89-993ec4434abd">
+          <AttributeID>SEASON</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c26d3bbf-d0fe-43db-a54f-c811985243f3">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="84486e8d-d530-47c8-ac2e-95ba6906e7b6">
+      <ID>DIM WIND</ID>
+      <Name>DIM WIND</Name>
+      <DimensionID>DIM WIND</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f399bb94-3bfa-441a-aeed-9c097953c9fc">
+          <AttributeID>WIND KEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80c3f5f7-add0-4e37-9a45-70e1a65d78a8">
+          <AttributeID>DIRECTION</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5d7c4f60-4baa-4ba6-bc8b-2f954740211b">
+      <ID>DIM LOCATION</ID>
+      <Name>DIM LOCATION</Name>
+      <DimensionID>DIM LOCATION</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="177d9c8d-0a31-40e2-9c04-0bf209d9ffe1">
+          <AttributeID>LOCATION KEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4760e706-224d-4bbe-8e9e-c90319100791">
+          <AttributeID>NAME</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="1ac1b45d-718f-476b-a1e0-92a93896b2f1">
+      <ID>FACT TABLE</ID>
+      <Name>FACT TABLE</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="165f1295-ae78-43d0-9b25-247305872dfd">
+          <ID>Max</ID>
+          <Name>Max</Name>
+          <Source dwd:design-time-name="a5a8868a-1de3-49b3-9e91-b8c9189e92a2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="509afd60-72b8-4078-9cc7-280eccc223a2">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>max</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b6e5d6d7-0bb1-49ff-b145-87298680bd89">
+          <ID>Min</ID>
+          <Name>Min</Name>
+          <Source dwd:design-time-name="33f10f59-c9b4-445b-ab7c-d9b9fecb264d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d1f681c9-e219-4dd6-84cc-6e9b6f438115">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>min</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1aa442ef-b03a-4d12-a809-c684720912fd">
+          <ID>Wind</ID>
+          <Name>Wind</Name>
+          <Source dwd:design-time-name="f0801a6c-e70d-4695-bcfb-aa5a7e0d0d80">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="087d2f97-a157-4e8b-a7c1-01c876aea87e">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>wind</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="809133b5-95c3-4b22-8ac9-46a88890659e">
+          <ID>Rain</ID>
+          <Name>Rain</Name>
+          <Source dwd:design-time-name="b53dfd9b-3e80-4f2e-9e1d-67e2fe646f1f">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="948c9cf1-4a4c-4e19-a6f4-7b2292ee2eed">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>rain</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8bc52737-4dbf-47ed-abb6-c985a634abc0">
+          <ID>Humidi</ID>
+          <Name>Humidi</Name>
+          <Source dwd:design-time-name="dee554b4-7987-4696-bd55-790681dd390d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="41ea3656-3a93-4a1d-aa4c-2b2cdca7d3cb">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>humidi</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="85e8446a-f9b1-4e5e-a33a-947cc8de8eb0">
+          <ID>Cloud</ID>
+          <Name>Cloud</Name>
+          <Source dwd:design-time-name="63306cd7-0ab3-4ca3-947a-978479c9f10f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e19242d-fa32-469b-9e75-b5b8a6a7f0ed">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>cloud</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c2a04df5-ba46-4e2c-bfc2-468296480e5c">
+          <ID>Pressure</ID>
+          <Name>Pressure</Name>
+          <Source dwd:design-time-name="fb27145c-cf9d-4911-8698-d205879aa240">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c25e58a6-7f29-4856-90ce-1e4b137f07e1">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+              <ColumnID>pressure</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="205d03c2-8f91-4ccb-a79d-baef2a79bc3e">
+          <ID>FACT TABLE Count</ID>
+          <Name>FACT TABLE Count</Name>
+          <Source dwd:design-time-name="e571ba8c-b415-4395-88b2-e68944d75aba">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5f53fe4f-515f-4361-abe5-5953763f44a3">
+              <TableID>dbo_FACT_x0020_TABLE</TableID>
+            </Source>
+          </Source>
+          <AggregateFunction>Count</AggregateFunction>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="35ba8ec6-aad2-43e0-97ef-177ff851098d">
+          <CubeDimensionID>DIM DATE</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="016d09b0-01ff-4c91-9285-b6f62e67dd71">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d228d53-171c-4e44-9d00-fc18ff479f52">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18ae34b9-4fa7-4ee6-8a8b-33a408960087">
+                    <TableID>dbo_FACT_x0020_TABLE</TableID>
+                    <ColumnID>DATE_KEY</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>DATE KEY</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c7f2c98c-a0db-44a6-902a-b451e49df717">
+          <CubeDimensionID>DIM WIND</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a23fa00b-62bc-46df-95c1-487f1bcfe681">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7e50f449-b461-413f-8f36-a6789d8046d6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3b86dba5-0815-4d18-a7c9-d2e04666fb5d">
+                    <TableID>dbo_FACT_x0020_TABLE</TableID>
+                    <ColumnID>WIND_KEY</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>WIND KEY</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="326e5eb6-8a2b-44fb-9eb5-71014bf7bd88">
+          <CubeDimensionID>DIM LOCATION</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ce3f2844-f930-4098-a280-8b64df733b1a">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0fe3c287-da48-4a4c-b1a5-0ba4df84b0cc">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="64c86503-6757-4000-801f-23f03abd6ad0">
+                    <TableID>dbo_FACT_x0020_TABLE</TableID>
+                    <ColumnID>LOCATION_KEY</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>LOCATION KEY</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
