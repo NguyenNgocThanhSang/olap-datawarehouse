@@ -1,0 +1,6 @@
+﻿-- câu 1: tính nhiệt độ trung bình cao nhất của từng tháng trong năm 2023
+
+SELECT [Measures].[rain] ON COLUMNS,
+[DIM LOCATION].[NAME].Members ON ROWS
+FROM [WEATHER DW]
+WHERE ([DIM DATE].[YEAR].&[2020])
