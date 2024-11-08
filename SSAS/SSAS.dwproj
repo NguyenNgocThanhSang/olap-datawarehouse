@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM WIND.dim</Name>
-      <FullPath>DIM WIND.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DIM LOCATION.dim</Name>
       <FullPath>DIM LOCATION.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WIND.dim</Name>
+      <FullPath>DIM WIND.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM DATE.dim</Name>

@@ -1,0 +1,22 @@
+﻿-- TOP 10 NƠI CÓ TỔNG LƯỢNG MƯA CAO NHẤT, XẾP GIẢM DẦN
+select [Measures].[Rain] on columns,
+topcount(
+	[DIM LOCATION].[NAME].[NAME].Members,
+	10,
+	[Measures].[Rain]
+) on rows
+from [WEATHER DW];
+
+-- drill down các tháng của mỗi mùa trong năm 2020 có lượng mưa > 200, sắp xếp theo thứ tự tăng dần trong tháng
+select [Measures].[Rain] on columns,
+order (
+	filter(
+		DrillDownMember(
+			[DIM DATE].[YearSeasonMonthDay].[MONTH],
+			[DIM DATE].[YearSeasonMonthDay].[SEASON]) * [DIM LOCATION].[NAME].[NAME].Members,
+		[Measures].[Rain] > 200),
+	[Measures].[Rain],
+	ASC
+) on rows
+from [WEATHER DW]
+where [DIM DATE].[YEAR].&[2020]
