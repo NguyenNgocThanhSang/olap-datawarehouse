@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS", "SSAS.dwproj", "{1E498701-0BDB-486B-B0C9-286AA15ABD17}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS", "SSAS.dwproj", "{4762C6E8-3230-4CC8-94CD-9EA9C5B8F8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E498701-0BDB-486B-B0C9-286AA15ABD17}.Development|Default.ActiveCfg = Development
-		{1E498701-0BDB-486B-B0C9-286AA15ABD17}.Development|Default.Build.0 = Development
-		{1E498701-0BDB-486B-B0C9-286AA15ABD17}.Development|Default.Deploy.0 = Development
+		{4762C6E8-3230-4CC8-94CD-9EA9C5B8F8D3}.Development|Default.ActiveCfg = Development
+		{4762C6E8-3230-4CC8-94CD-9EA9C5B8F8D3}.Development|Default.Build.0 = Development
+		{4762C6E8-3230-4CC8-94CD-9EA9C5B8F8D3}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2EE72D69-CD5F-42BD-973A-51C14193BF31}
+		SolutionGuid = {512EFBF5-B406-439F-AC8C-5A7760A22508}
 	EndGlobalSection
 EndGlobal
