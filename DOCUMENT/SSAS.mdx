@@ -1,4 +1,4 @@
-﻿-- TOP 10 NƠI CÓ TỔNG LƯỢNG MƯA CAO NHẤT, XẾP GIẢM DẦN
+﻿-- Câu 1: TOP 10 NƠI CÓ TỔNG LƯỢNG MƯA CAO NHẤT, XẾP GIẢM DẦN, slide and dice
 select [Measures].[Rain] on columns,
 topcount(
 	[DIM LOCATION].[NAME].[NAME].Members,
@@ -7,7 +7,7 @@ topcount(
 ) on rows
 from [WEATHER DW];
 
--- drill down các tháng của mỗi mùa trong năm 2020 có lượng mưa > 200, sắp xếp theo thứ tự tăng dần trong tháng
+--Câu 2: drill down các tháng của mỗi mùa trong năm 2020 có lượng mưa > 200, sắp xếp theo thứ tự tăng dần trong tháng
 select [Measures].[Rain] on columns,
 order (
 	filter(
@@ -19,4 +19,90 @@ order (
 	ASC
 ) on rows
 from [WEATHER DW]
-where [DIM DATE].[YEAR].&[2020]
+where [DIM DATE].[YEAR].&[2020];
+
+
+-- Câu 3: lấy ra biên độ nhiệt trong ngày 1/1/2009 của các địa điểm, xếp giảm dần (slice and dice)
+select 
+	[Measures].[DailyTempuatureRange] on columns,
+	order(
+		[DIM LOCATION].[NAME].[NAME].members,
+		[Measures].[DailyTempuatureRange],
+		desc
+	) on rows
+from [WEATHER DW]
+where ([DIM DATE].[YearSeasonMonthDay].[DAY].&[1]&[1]&[1]&[2009]);
+
+-- Câu 4: lấy ra nhiệt độ cao nhất trong tháng 1/2021 tại các địa điểm, loại slice
+
+select [Measures].[Max] on columns,
+	[DIM LOCATION].[NAME].[NAME].members on rows
+from [WEATHER DW]
+where ([DIM DATE].[YearSeasonMonthDay].[MONTH].&[1]&[1]&[2021]);
+
+
+-- Câu 5: truy vấn loại roll up, tính tổng lượng mưa của mỗi tỉnh trong 12 năm qua
+select {[Measures].[Rain]} on columns,
+	[DIM LOCATION].[NAME].[NAME].members on rows
+from [WEATHER DW];
+
+-- Câu 6: Tìm nhiệt độ trung bình cao nhất trong mỗi mùa của từng năm. 
+WITH 
+   MEMBER [Measures].[MaxSeasonalAvgTemp] AS 
+      MAX(EXISTING [Dim Date].[Day].[Day].MEMBERS, [Measures].[DailyAvgTemp]) 
+
+SELECT 
+   {[Measures].[MaxSeasonalAvgTemp]} ON COLUMNS,
+   NON EMPTY CrossJoin([Dim Date].[YEAR].[YEAR].MEMBERS, [Dim Date].[Season].[Season].MEMBERS) ON ROWS 
+FROM 
+   [WEATHER DW];
+
+-- Câu 7: Liệt kê tốc độ gió trung bình của những địa điểm có hướng gió là ENE vào mùa xuân 2019
+SELECT 
+  NON EMPTY [DIM LOCATION].[NAME].[NAME].members on rows, 
+   [Measures].[AVgWind] on columns
+FROM 
+  [WEATHER DW] 
+WHERE 
+  ([DIM DATE].[YearSeasonMonthDay].[SEASON].&[1]&[2009],
+   [DIM WIND].[DIRECTION].&[ENE]);
+
+-- Câu 8: Liệt kê top 10 địa điểm có tốc độ gió cao nhất với từng hướng gió trong mùa xuân năm 2020
+select 
+	[Measures].[Wind] on columns,
+	non empty 
+	generate(
+		[DIM WIND].[DIRECTION].[DIRECTION].members,
+		topcount(
+			[DIM WIND].[DIRECTION].currentmember * [DIM LOCATION].[NAME].[NAME].members,
+			10,
+			[Measures].[Wind]
+		)
+	) on rows
+from [WEATHER DW]
+where ([DIM DATE].[YearSeasonMonthDay].[SEASON].&[1]&[2020]);
+
+-- Câu 9: Liệt kê lượng mưa trung bình của mỗi địa điểm trong 10 năm từ 2011 đến 2020
+select 
+	non empty [DIM DATE].[YEAR].&[2011] : [DIM DATE].[YEAR].&[2020] on columns,
+	[DIM LOCATION].[NAME].[NAME] * [Measures].[AvgRain] on rows 
+from 
+	[WEATHER DW];
+
+-- Câu 10: Truy vấn top 10 địa điểm có nhiệt độ trung bình hàng ngày > 25 và độ ẩm > 70 trong năm 2019
+select {[Measures].[DailyAvgTemp], [Measures].[Humidi]} on columns,
+	non empty
+		topcount(
+			filter(
+				[DIM LOCATION].[NAME].[NAME].MEMBERS,
+				[Measures].[Humidi] > 70 AND [Measures].[DailyAvgTemp] > 25
+			),
+			10,
+			[Measures].[DailyAvgTemp]
+		) ON ROWS
+FROM [WEATHER DW]
+WHERE ([DIM DATE].[YEAR].&[2019])
+
+
+
+
