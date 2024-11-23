@@ -3,6 +3,7 @@ SSIS/.vs
 SSAS/.vs
 DATASET/*.mdf
 DATASET/*.ldf
+*.pkl
 #################
 ## Eclipse
 #################
