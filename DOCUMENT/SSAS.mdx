@@ -78,6 +78,7 @@ select
 			10,
 			[Measures].[Wind]
 		)
+
 	) on rows
 from [WEATHER DW]
 where ([DIM DATE].[YearSeasonMonthDay].[SEASON].&[1]&[2020]);
@@ -101,8 +102,50 @@ select {[Measures].[DailyAvgTemp], [Measures].[Humidi]} on columns,
 			[Measures].[DailyAvgTemp]
 		) ON ROWS
 FROM [WEATHER DW]
-WHERE ([DIM DATE].[YEAR].&[2019])
+WHERE ([DIM DATE].[YEAR].&[2019]);
 
+-- Câu 11  Truy vấn nhiệt độ cao nhất và thấp nhất theo từng ngày của 
+--         Thành Phố Hồ Chí Minh vào tháng 4 năm 2021.
+	
+	SELECT {[Measures].[Max], [Measures].[Min]} ON COLUMNS,	
+	 [DIM DATE].[YearSeasonMonthDay].[DAY]ON ROWS
+	FROM [WEATHER DW]
+	WHERE( [DIM LOCATION].[NAME].&[Ho Chi Minh City],[DIM DATE].[MONTH].&[4]&[2]&[2021]);
 
+-- Câu 12 Truy vấn thống kê lượng mưa trung bình theo năm và hướng gió, sắp xếp giảm dần
+			SELECT 
+			[Measures].[AvgRain] ON COLUMNS,
+			NON EMPTY
+			ORDER(
+			CROSSJOIN([DIM DATE].[YEAR].[YEAR], [DIM WIND].[DIRECTION].[DIRECTION]), 
+			[Measures].[AvgRain], 
+			BDESC
+			) ON ROWS
+			FROM [WEATHER DW];
 
+-- Câu 13: Truy vấn xác định nhiệt độ trung bình cao nhất của từng năm
+WITH 
+MEMBER [Measures].[MaxMonthlyAvgTemp] AS 
+    MAX([DIM DATE].[MONTH].MEMBERS, [Measures].[DailyAvgTemp])
+SELECT 
+    [Measures].[MaxMonthlyAvgTemp] ON COLUMNS,
+    [DIM DATE].[YEAR].MEMBERS ON ROWS
+FROM [WEATHER DW];
 
+--Câu 14. Truy vấn các tháng có tổng lượng mưa cao hơn trung bình của toàn bộ năm
+WITH 
+MEMBER [Measures].[YearlyAvgRain] AS 
+    AVG([DIM DATE].[YEAR].MEMBERS, [Measures].[AvgRain])
+SELECT 
+    FILTER(
+        [DIM DATE].[MONTH].MEMBERS, 
+        [Measures].[AvgRain] > [Measures].[YearlyAvgRain]
+    ) ON ROWS,
+    [Measures].[AvgRain] ON COLUMNS
+FROM [WEATHER DW];
+
+--Câu 15: Truy vấn phân tích áp suất trung bình theo từng mùa và năm
+SELECT 
+    [Measures].[Pressure] ON COLUMNS,
+    CROSSJOIN([DIM DATE].[YEAR].[YEAR], [DIM DATE].[SEASON].[SEASON]) ON ROWS
+FROM [WEATHER DW];
